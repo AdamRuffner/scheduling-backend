@@ -1,3 +1,17 @@
 {
-    "rewrites": [{ "source": "/users/(.*)", "destination": "/users" }]
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "npm start server.js"
+      }
+    ],
+    "routes": [
+      {
+        
+        "src": "server.js",
+        
+        "dest": "server.js"
+      }
+    ]
   }
