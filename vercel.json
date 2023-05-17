@@ -1,17 +1,9 @@
-{
-    "version": 2,
-    "rewrites": [
+
+    
       {
         "src": "server.js",
-        "use": "server.js"
-      }
-    ],
-    "routes": [
-      {
-        
-        "src": "server.js",
-        
+        "use": "server.js",
         "dest": "server.js"
       }
-    ]
-  }
+    
+  
