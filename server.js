@@ -39,3 +39,5 @@ app.post('/users/login', async (req,res) => {
 })
 
 app.listen(4000)
+
+module.exports = app;
